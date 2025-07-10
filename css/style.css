@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: var(--bg-primary);
+  font-family: "Raleway", sans-serif;
+}
+
+/* all themes */
+:root {
+  --color--btn: #4e47ff;
+  --color--text: #252432;
+  --color-paragraph: #252432;
+  --bg--action: rgba(230, 230, 255, 1);
+  --bg-primary: #f5f8ff;
+  --color--white: #fff;
+}
+
+/* common use items */
+.container {
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 0 .5rem;
+  margin-bottom: 20rem;
+}
+
+.data-title {
+  font-size: 3.8rem;
+}
+
+.btn {
+  background-color: var(--color--btn);
+  color: var(--color--white);
+  padding: 1.3rem 3.6rem;
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.paragraph {
+  font-size: 2.4rem;
+  color: var(--color-paragraph);
+  opacity: 50%;
+}
+
+/* navbar and hero section start  */
+header {
+  padding: 1rem 0;
+  background-image: url(../assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo {
+  font-size: 3.4rem;
+  font-weight: bold;
+}
+
+header .hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20rem;
+  flex-direction: column;
+  gap: 3.7rem;
+}
+
+header .hero h1 {
+  font-size: 6.5rem;
+  text-align: center;
+  color: var(--color--text);
+}
+/* navbar and hero section end  */
+
+/* action section start  */
+.action-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20rem;
+  margin-top: 10rem;
+}
+
+.action-section figure img {
+  width: 100%;
+}
+
+.action-section .section-title {
+  font-size: 4.2rem;
+}
+
+.action-section--content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.3rem;
+}
+/* action section end */
+
+/* data section start */
+.data-div{
+    display: flex;
+    justify-content: space-around;
+}
+.data-title{
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 3.8rem;
+    font-weight: bold;
+}
+.data-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.data-card .data-count {
+  color: #4e47ff;
+  font-size: 8rem;
+  font-family: "Inter", sans-serif;
+}
+
+.data-card .paragraph-2 {
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+  opacity: 50%;
+}
+
+.data-section {
+  background-color: var(--bg--action);
+  padding: 5rem 8rem;
+  border-radius: 2.4rem;
+}
+
+/* data section end */
