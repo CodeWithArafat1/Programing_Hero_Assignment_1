@@ -44,6 +44,13 @@ body {
   cursor: pointer;
   font-size: 1.6rem;
   font-weight: bold;
+  transition: .3s linear;
+}
+
+.btn:hover {
+  background-color: #555879;
+  color: var(--color--white);
+  transform: translateY(.2rem);
 }
 
 .paragraph {
@@ -70,6 +77,7 @@ nav {
 nav .logo {
   font-size: 3.4rem;
   font-weight: bold;
+  color: var(--color--btn);
 }
 
 header .hero {
@@ -85,6 +93,10 @@ header .hero h1 {
   font-size: 6.5rem;
   text-align: center;
   color: var(--color--text);
+
+  & span {
+    color: var(--color--btn);
+  }
 }
 /* navbar and hero section end  */
 
@@ -96,7 +108,9 @@ header .hero h1 {
   gap: 20rem;
   margin-top: 10rem;
 }
-
+a {
+  text-decoration: none;
+}
 .action-section figure img {
   width: 100%;
 }
