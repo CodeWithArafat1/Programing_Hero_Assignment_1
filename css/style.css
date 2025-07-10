@@ -26,8 +26,8 @@ body {
 .container {
   max-width: 144rem;
   margin: 0 auto;
-  padding: 0 .5rem;
-  margin-bottom: 20rem;
+  padding: 0 0.5rem;
+  margin-bottom: 13.7rem;
 }
 
 .data-title {
@@ -113,15 +113,15 @@ header .hero h1 {
 /* action section end */
 
 /* data section start */
-.data-div{
-    display: flex;
-    justify-content: space-around;
+.data-div {
+  display: flex;
+  justify-content: space-around;
 }
-.data-title{
-    text-align: center;
-    margin-bottom: 4rem;
-    font-size: 3.8rem;
-    font-weight: bold;
+.data-title {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 3.8rem;
+  font-weight: bold;
 }
 .data-card {
   display: flex;
@@ -150,3 +150,68 @@ header .hero h1 {
 }
 
 /* data section end */
+/* user section start  */
+.user-title {
+  font-size: 4.2rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.user-data {
+  display: flex;
+  gap: 2rem;
+}
+
+.user-card {
+  padding: 2.4rem;
+  background-color: var(--color--white);
+  border: 0.2rem solid #f2eded;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  border-radius: 1.4rem;
+}
+.icons {
+  display: flex;
+  gap: 0.1rem;
+}
+
+.user-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.user-sub--title {
+  font-size: 2.4rem;
+}
+.user-info {
+  font-size: 1.6rem;
+}
+.user-name {
+  font-size: 1.6rem;
+  color: 757575;
+  opacity: 60%;
+  font-weight: bold;
+}
+.user-date {
+  font-size: 1.6rem;
+  opacity: 50%;
+  font-weight: 300;
+}
+
+.users-profile img {
+  border-radius: 50%;
+  width: 100%;
+}
+.users-profile {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+.user-name--date {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+/* user section end  */
